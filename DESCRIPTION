@@ -1,12 +1,11 @@
 Package: gibbsate
-Title: What the Package Does (One Line, Title Case)
+Title: A toy pack calculating Gibbs free energy and equilibrium constant through ethalpy and entropy.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Jane", "Doe", , "jane@example.com", role = c("aut", "cre"))
+Description: A toy pack calculating Gibbs free energy and equilibrium constant through ethalpy and entropy.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    use_mit_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
