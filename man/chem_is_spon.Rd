@@ -20,5 +20,7 @@ A logical vector
 Check if the chemical reaction is spontaneous through enthalpy, entropy and temperature
 }
 \examples{
-chem_is_spon(-200*1000,273.15)
+\dontrun{
+s<-chem_is_spon(-200*1000,200,273.15)
+}
 }

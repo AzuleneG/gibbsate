@@ -5,7 +5,9 @@
 #' @param z Temperature of reaction.
 #' @returns A logical vector
 #' @examples
-#' chem_is_spon(-200*1000,273.15)
+#' \dontrun{
+#' s<-chem_is_spon(-200*1000,200,273.15)
+#' }
 chem_is_spon<-function(x,y,z){
   if(x-z*y>0){
     TRUE

@@ -18,5 +18,7 @@ A numeric vector.
 Calculate equilibrium constant through Gibbs free energy and temperature
 }
 \examples{
-chem_as_keq(-200*1000,273.15)
+\dontrun{
+k<-chem_as_keq(-200*1000,273.15)
+}
 }
