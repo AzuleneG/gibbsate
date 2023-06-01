@@ -4,6 +4,7 @@
 #' @param y Entropy of the reaction
 #' @param z Temperature of reaction.
 #' @returns A numeric vector.
+#' @export
 #' @examples
 #' \dontrun{
 #' g<-gibbsate(-200*1000,200,273.15)

@@ -4,6 +4,7 @@
 #' @param y Entropy of the reaction
 #' @param z Temperature of reaction.
 #' @returns A logical vector
+#' @export
 #' @examples
 #' \dontrun{
 #' s<-chem_is_spon(-200*1000,200,273.15)

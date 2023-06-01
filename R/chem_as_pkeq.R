@@ -3,6 +3,7 @@
 #' @param x Gibbs free energy of the reaction
 #' @param y Temperature of reaction.
 #' @returns A numeric vector.
+#' @export
 #' @examples
 #' \dontrun{
 #' pk<-chem_as_pkeq(-200*1000,273.15)
