@@ -18,7 +18,5 @@ A numeric vector.
 Calculate equilibrium constant(under log10()) through Gibbs free energy and temperature
 }
 \examples{
-\dontrun{
-pk<-chem_as_pkeq(-200*1000,273.15)
-}
+chem_as_pkeq(-200*1000,273.15)
 }

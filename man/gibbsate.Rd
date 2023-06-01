@@ -20,7 +20,5 @@ A numeric vector.
 Calculate Gibbs free energy through enthalpy, entropy and temperature
 }
 \examples{
-\dontrun{
 g<-gibbsate(-200*1000,200,273.15)
-}
 }
