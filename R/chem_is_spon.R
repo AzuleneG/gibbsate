@@ -6,9 +6,7 @@
 #' @returns A logical vector
 #' @export
 #' @examples
-#' \dontrun{
-#' s<-chem_is_spon(-200*1000,200,273.15)
-#' }
+#' chem_is_spon(-200*1000,200,273.15)
 chem_is_spon<-function(x,y,z){
   if(x-z*y>0){
     TRUE

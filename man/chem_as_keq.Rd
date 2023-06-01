@@ -4,7 +4,7 @@
 \alias{chem_as_keq}
 \title{Calculate equilibrium constant through Gibbs free energy and temperature}
 \usage{
-chem_as_keq(x, y)
+chem_as_keq(G, T)
 }
 \arguments{
 \item{x}{Gibbs free energy of the reaction}

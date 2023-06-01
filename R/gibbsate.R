@@ -6,9 +6,7 @@
 #' @returns A numeric vector.
 #' @export
 #' @examples
-#' \dontrun{
 #' g<-gibbsate(-200*1000,200,273.15)
-#' }
 gibbsate<-function(x,y,z){
   x-z*y
 }

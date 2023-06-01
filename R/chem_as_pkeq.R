@@ -5,9 +5,7 @@
 #' @returns A numeric vector.
 #' @export
 #' @examples
-#' \dontrun{
-#' pk<-chem_as_pkeq(-200*1000,273.15)
-#' }
+#' chem_as_pkeq(-200*1000,273.15)
 chem_as_pkeq<-function(x,y){
   x/(-2.30*8.31*y)
 }

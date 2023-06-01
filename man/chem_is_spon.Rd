@@ -4,7 +4,7 @@
 \alias{chem_is_spon}
 \title{Check if the chemical reaction is spontaneous through enthalpy, entropy and temperature}
 \usage{
-chem_is_spon(x, y, z)
+chem_is_spon(H, S, T)
 }
 \arguments{
 \item{x}{Enthalpy of the reaction}
